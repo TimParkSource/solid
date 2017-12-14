@@ -1,0 +1,17 @@
+<?php
+
+class HomeTest extends TestCase {
+
+	/**
+	 * A basic functional test example.
+	 *
+	 * @return void
+	 */
+	public function testHome()
+	{
+		$response = $this->call('GET', 'home');
+
+		$this->assertEquals(200, $response->getStatusCode());
+	}
+
+}
