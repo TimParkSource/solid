@@ -1,1 +1,1 @@
-solid_laravel
+Project for OOP class
